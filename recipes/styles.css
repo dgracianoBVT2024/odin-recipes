@@ -1,0 +1,28 @@
+h1 {
+  background-color: aliceblue;
+  color: red;
+}
+
+
+h2 {
+  background-color: aquamarine;
+  color: chocolate;
+  font-weight: 800;
+
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(95, 158, 160, 0.792);
+
+}
+
+body {
+  background-image: url(../../odin-links-and-images/images/1934663.png);
+}
+
+* {
+  color: hsl(131, 93%, 52%);
+  font-size: 24px;
+  font-style: italic;
+}
