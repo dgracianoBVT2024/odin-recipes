@@ -1,14 +1,44 @@
+/* body {
+  position: fixed;
+} */
+ol,
+li,
+ul,
+h1,
+h2,
+h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+
+}
+
+* {
+  color: hsl(0, 0%, 100%);
+  font-style: italic;
+}
+
+
 h1 {
   background-color: aliceblue;
   color: red;
+  padding: 10px;
+
 }
 
 
 h2 {
   background-color: aquamarine;
   color: chocolate;
-  font-weight: 800;
-
+  padding: 10px;
 }
 
 h3 {
@@ -19,10 +49,4 @@ h3 {
 
 body {
   background-image: url(../../odin-links-and-images/images/1934663.png);
-}
-
-* {
-  color: hsl(131, 93%, 52%);
-  font-size: 24px;
-  font-style: italic;
 }

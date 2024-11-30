@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Page with Containers and Divs</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 1rem 0;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      .card {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+        width: calc(33% - 20px);
+      }
+      .full-width {
+        width: 100%;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Random Page</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="main-content">
+        <div class="card full-width">
+          <h2>Welcome to our Random Page</h2>
+          <p>
+            This is a demonstration of using divs and containers to create a
+            simple layout.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Section 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+            dui mauris.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Section 2</h3>
+          <p>
+            Vivamus rhoncus nisl sed venenatis luctus. Sed condimentum risus ut
+            tortor feugiat laoreet.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Section 3</h3>
+          <p>
+            Phasellus dictum interdum efficitur. Maecenas eleifend sapien felis,
+            quis interdum ex tempor a.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Random Page. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
